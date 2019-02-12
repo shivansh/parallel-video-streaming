@@ -2,7 +2,9 @@
 
 This is a message-passing based rewrite of my [Networks
 project](https://github.com/shivansh/videoStream), which was based on a (rather
-complicated) multithreaded model.
+complicated) multithreaded model. Refer the [blog
+post](https://shivansh.github.io/posts/2019-01-09-Revisiting-networks-project/)
+for details.
 
 ## Dependencies
 

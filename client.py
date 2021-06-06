@@ -50,6 +50,7 @@ class Client:
             serialized_frame, dtype='uint8').reshape(frame_dims)
         cv2.imshow('frame', frame)
 
+        # Ref: https://stackoverflow.com/a/39201163/5107319
         if cv2.waitKey(1) & 0xFF == ord('q'):
             self.cleanup()
 
